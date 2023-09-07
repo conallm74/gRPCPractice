@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package proto;
+
+option java_package = "com.proto.proto";
+option java_multiple_files = true;
+
+message MessageThree{
+  message MessageFour{    // this an object
+
+  }
+  enum EnumTwo{ // this an object , and we can use the objects to define a field
+    ENUM_TWO_UNSPECIFIED = 0;
+    // ...
+  }
+  MessageFour four = 1;
+  EnumTwo two = 2;
+}
+
+message MessageFive{
+  message MessageSix{
+  }
+  message MessageSeven{
+
+  }
+  message MessageEight{
+
+  }
+  MessageSix six = 6;
+  MessageSeven seven = 7;
+  MessageEight eight = 8;
+}
+
+

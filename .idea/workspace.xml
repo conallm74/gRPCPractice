@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c13f4bc-3721-4d47-94be-7740c9f720ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/proto/date.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/latitude.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/money.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/person.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/proto/dummy.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/dummy.proto" afterDir="false" />
+    <list default="true" id="8c13f4bc-3721-4d47-94be-7740c9f720ae" name="Changes" comment="the way it is now but it's all under a multimessage package it should be a file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/simple/SimpleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/city_imported_package.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/city_imports.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/city_nested.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/city_package.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/city_same_level.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/imports.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/nested_type.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/package.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/use_package.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +39,18 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2V1skKoNnpr0lGujjJZuwQO0eFM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,6 +74,18 @@
       <option name="presentableId" value="Default" />
       <updated>1694015066246</updated>
     </task>
+    <task id="LOCAL-00001" summary="the way it is now but it's all under a multimessage package it should be a file">
+      <created>1694079184462</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694079184462</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="the way it is now but it's all under a multimessage package it should be a file" />
+    <option name="LAST_COMMIT_MESSAGE" value="the way it is now but it's all under a multimessage package it should be a file" />
   </component>
 </project>

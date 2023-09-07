@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package proto;
+
+option java_package = "com.proto.proto";
+option java_multiple_files = true;
+
+import "nested_type.proto";
+import "latitude.proto";
+import "money.proto"
+
+message messageSix{
+   MessageFive five = 5;
+}
+message importedLongitude {
+   Longitude longitudeImport = 1;
+}
+
+message importedMoney{
+   Money moneyImported = 1;
+}

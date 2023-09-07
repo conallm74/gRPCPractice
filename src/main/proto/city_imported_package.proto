@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package proto;
+
+option java_package = "com.proto.proto";
+option java_multiple_files = true;
+
+import "city_package.proto";
+
+message cityImport{
+  my.cityPackage.City city = 1;
+}

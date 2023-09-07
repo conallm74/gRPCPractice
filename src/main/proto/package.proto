@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+option java_package = "com.proto.proto";
+option java_multiple_files = true;
+
+
+package my.package;
+
+message MessageSix {
+
+}
+
