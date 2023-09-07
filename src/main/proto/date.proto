@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package proto;
+
+option java_package = "com.proto.proto";
+option java_multiple_files = true;
+
+/*
+Date (example: 2018/03/15). With fields:
+Year (number)
+Month (number)
+Day (number)
+ */
+
+message Date {
+  uint32 year = 1;
+  uint32 month = 2;
+  uint32 day = 3;
+}

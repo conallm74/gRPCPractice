@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package proto;
+
+option java_package = "com.proto.proto";
+option java_multiple_files = true;
+
+
+/*
+Latitude Longitude (example: -33.865382, 151.192861). With fields:
+Latitude (number)
+Longitude (number)
+ */
+
+message Longitude {
+  double Latitude = 1;
+  double Longitude = 2;
+  // double for more precision that float
+}

@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package proto;
+
+option java_package = "com.proto.proto";
+option java_multiple_files = true;
+
+enum EyeColor {
+  EYE_COLOR_UNSPECIFIED = 0; // ZERO IS always unspecified
+  EYE_COLOR_GREEN = 1;
+  EYE_COLOR_BLUE = 2;
+  EYE_COLOR_BROWN = 3;
+}
+// now that that's specified, we can use it in the account
+/*
+Used to identify someone in our system
+ */
+message Account {
+  uint32 id = 1;
+  string name = 2;
+  // picture in .jpeg format
+  bytes thumbnail = 3; // thumbnail for the account
+  // a boolean to check if the account is verified
+  bool is_verified = 4;
+  // then we want to look at the height
+  // for this, we use a floating point
+  float height = 5; // in centimeters
+  // adding a phone number
+  repeated string phones = 6;
+  // adding an eye color with an enum
+
+  EyeColor eye_color = 7;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package proto;
+
+option java_package = "com.proto.proto";
+option java_multiple_files = true;
+/*
+Money (example: USD 35.42  (35 = integral, 42 = decimal)):
+Currency Code (string)
+Integral amount (number)
+Decimal amount (number)
+ */
+
+message Money {
+  string currency_code = 1;
+  uint32 Integral_amount = 2;
+  float Decimal_amount = 3;
+}
